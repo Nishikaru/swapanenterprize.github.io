@@ -107,7 +107,7 @@ p{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-attachment: fixed;
+    
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(https://images.pexels.com/photos/2224933/pexels-photo-2224933.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center/cover;
     background-attachment: fixed;
 }
