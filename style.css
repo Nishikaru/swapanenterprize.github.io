@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 *{
     margin: 0% 0%;
     padding: 0% 0%;
@@ -25,7 +26,7 @@ body{
     font-family: 'Lobster Two', cursive;
 }
 .FirstLook{
-    background: linear-gradient(rgba(253, 255, 136, 0.63),rgba(255, 141, 255, 0.397)),url(https://images.pexels.com/photos/7078622/pexels-photo-7078622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background: linear-gradient(45deg, rgba(253, 255, 136, 0.63),rgba(255, 141, 255, 0.397)),url(https://images.pexels.com/photos/7078622/pexels-photo-7078622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -116,22 +117,31 @@ p{
 }
 .cu{
     padding: 1em 1em;
-    background-color: wheat;
-    font-family: fantasy;
-
+    background:linear-gradient(90deg, rgba(253, 255, 136, 0.63),rgba(255, 141, 255, 0.397));
+    font-family: 'Rampart One', cursive;
+    color: rgb(117, 216, 52);
+    text-transform: capitalize;
 }
 .cu h3{
     margin: 1em 0em;
 }
 .cu i{
     font-family: 'Open Sans Condensed', sans-serif;
-    color: rgb(129, 129, 129);
+    color: rgb(58, 199, 255);
 }
 .up{
-padding: 1em;
-border-radius: 50%;
-position:fixed;
-left: 90%;
-top: 92%;
-background-color: turquoise;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position:fixed;
+    left: 90%;
+    top: 92%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-style: none;
+    box-shadow: 5px 5px 16px ,-5px -5px 16px white;
+    cursor: pointer;
+}
+.up p{
+    text-align: center;
+    font-size: 30px;
 }
