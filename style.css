@@ -22,8 +22,12 @@ body{
 }
 .FirstLook h1{
     color: rgb(50, 123, 241);
+    padding: 1em 1em;
     font-size: 50px;
     font-family: 'Lobster Two', cursive;
+    outline-style: solid;
+    outline-color: powderblue;
+    outline-width: 2px;
 }
 .FirstLook{
     background: linear-gradient(45deg, rgba(253, 255, 136, 0.63),rgba(255, 141, 255, 0.397)),url(https://images.pexels.com/photos/7078622/pexels-photo-7078622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
