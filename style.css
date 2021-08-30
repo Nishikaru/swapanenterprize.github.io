@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
 *{
     margin: 0% 0%;
     padding: 0% 0%;
@@ -19,12 +20,12 @@ body{
     
 }
 .FirstLook h1{
-    color: rgba(255, 166, 0, 0.9);
+    color: rgb(50, 123, 241);
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lobster Two', cursive;
 }
 .FirstLook{
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(https://images.pexels.com/photos/7078622/pexels-photo-7078622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background: linear-gradient(rgba(253, 255, 136, 0.63),rgba(255, 141, 255, 0.397)),url(https://images.pexels.com/photos/7078622/pexels-photo-7078622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
