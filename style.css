@@ -119,7 +119,7 @@ p{
     padding: 1em 1em;
     background:linear-gradient(90deg, rgba(253, 255, 136, 0.63),rgba(255, 141, 255, 0.397));
     font-family: 'Rampart One', cursive;
-    color: rgb(117, 216, 52);
+    color: rgb(0, 0, 0);
     text-transform: capitalize;
 }
 .cu h3{
@@ -127,7 +127,7 @@ p{
 }
 .cu i{
     font-family: 'Open Sans Condensed', sans-serif;
-    color: rgb(58, 199, 255);
+    color: rgb(50, 123, 241);
 }
 .up{
     height: 40px;
