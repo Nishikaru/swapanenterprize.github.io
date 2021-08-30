@@ -22,11 +22,11 @@ body{
 }
 .FirstLook h1{
     color: rgb(50, 123, 241);
-    padding: 1em 1em;
+    padding: 40px 35px;
     font-size: 50px;
     font-family: 'Lobster Two', cursive;
     outline-style: solid;
-    outline-color: powderblue;
+    outline-color: rgb(255, 101, 101);
     outline-width: 2px;
 }
 .FirstLook{
