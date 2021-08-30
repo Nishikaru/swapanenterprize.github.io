@@ -8,7 +8,7 @@
     <title>Swapan Enterprize</title>
 </head>
 <body>
-    <section>
+    <section id="top">
         <div class="FirstLook">
             <h1>Swapan Enterprize</h1>
         </div>
@@ -18,16 +18,14 @@
         <div class="nev">
             <ul>
                 <!-- <a href=""><li>Home</li></a> -->
-                <a href=""><li>About Us</li></a>
-
-                <a href=""><li>Products</li></a>
-
-                <a href=""><li>Contact Us</li></a>
+                <a href="#pro"><li>Products</li></a>
+                <a href="#ab"><li>About Us</li></a>
+                <a href="#cu"><li>Contact Us</li></a>
             </ul>
         </div>
     </section>
     <hr>
-    <section class="products">
+    <section class="products" id="pro">
         <div class="card">
             <h3>Products</h3>
             <div>
@@ -40,7 +38,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="aboutus" id="ab">
         <div>
             <h3>About Us</h3>
             <p>
@@ -48,13 +46,17 @@
             </p>
         </div>
     </section>
-    <section>
+    <section id="cu" class="cu">
         <div>
             <h3>Contact Us</h3>
             <p><b>Email:- <i>swapanent0015@gmail.com</i></b></p>
             <p><b>Cell No:- <i>01715043597</i></b></p>
+            <br>
             <p>&copy;Nishikaru.github.io</p>
         </div>
     </section>
+    <a href="#top">
+    <button class="up"><p>^</p></button>
+    </a>
 </body>
 </html>

@@ -2,6 +2,9 @@
     margin: 0% 0%;
     padding: 0% 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     display: block;
 }
@@ -84,4 +87,49 @@ p{
     box-sizing: border-box;
     box-shadow: 0 0 10px  5px rgba(0, 0, 0, 0.479);
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.575);
+}
+.aboutus{
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(https://images.pexels.com/photos/2224933/pexels-photo-2224933.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center/cover;
+    background-attachment: fixed;
+}
+.aboutus div{
+    height: 70%;
+    width: 70%;
+    border-style: solid;
+    background-color: rgba(136, 255, 255, 0.589);
+    border-radius: 20px;
+    padding: 1em 1em;
+    box-shadow: 0 0 10px  5px rgba(0, 0, 0, 0.479);
+}
+.aboutus div h3{
+    margin: 1em;
+    color: pink;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.575);
+}
+.cu{
+    padding: 1em 1em;
+    background-color: wheat;
+    font-family: fantasy;
+
+}
+.cu h3{
+    margin: 1em 0em;
+}
+.cu i{
+    font-family: cursive;
+    color: rgb(129, 129, 129);
+}
+.up{
+padding: 1em;
+border-radius: 50%;
+position:fixed;
+left: 90%;
+top: 92%;
+background-color: turquoise;
 }
