@@ -133,7 +133,15 @@ p{
 }
 .cu{
     padding: 1em 1em;
-    background:linear-gradient(90deg, rgba(253, 255, 136, 0.63),rgba(255, 141, 255, 0.397));
+    /* background:linear-gradient(90deg, rgba(253, 255, 136, 0.63),rgba(255, 141, 255, 0.397)); */
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eaefb5+29,ff9ee0+100 */
+    background: rgb(234,239,181); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(234,239,181,1) 29%, rgba(255,158,224,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(234,239,181,1) 29%,rgba(255,158,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(234,239,181,1) 29%,rgba(255,158,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaefb5', endColorstr='#ff9ee0',GradientType=1 ); /* IE6-9 */
+
+
     font-family: 'Rampart One', cursive;
     color: rgb(0, 0, 0);
     text-transform: capitalize;
