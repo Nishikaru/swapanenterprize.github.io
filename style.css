@@ -157,28 +157,42 @@ p{
 .up{
     height: 40px;
     width: 40px;
-    border-radius: 50%;
+    border-radius: 0px;
     position:fixed;
     left: 75%;
     top: 85%;
     /* background-color: rgba(255, 255, 255, 0.7); */
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff17c+39,f96dc8+100 */
-background: rgb(255,241,124); /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  rgba(255,241,124,1) 39%, rgba(249,109,200,1) 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,241,124,1) 39%,rgba(249,109,200,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  rgba(255,241,124,1) 39%,rgba(249,109,200,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff17c', endColorstr='#f96dc8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,666666+52,000000+52,131313+100 */
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #4c4c4c 0%, #666666 52%, #000000 52%, #131313 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #4c4c4c 0%,#666666 52%,#000000 52%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #4c4c4c 0%,#666666 52%,#000000 52%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
     border-style: solid;
-    border-color: rgba(249,109,200,1);
-    box-shadow: 0px 0px 7px 4px rgb(251, 235, 8);
+    border-color: rgb(0, 0, 0);
+    box-shadow: -1px 1px 3px 2px rgba(154, 8, 251, 0.863), 1px -1px 3px 1px rgba(111,244, 111, 0.863);
     cursor: pointer;
 }
 .up p{
     padding: 5px;
     text-align: center;
     font-size: 30px;
-    color: rgb(65, 166, 225);
-    font-family: fantasy;
+    color: rgb(255, 255, 255);
+    font-family:cursive;
+}
+.up:hover{
+    border-color: red;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 15px 1px red;
+}
+.up p:hover{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 2);
+    text-shadow: 0 0 10px 1px red;
+    font-family:cursive;
 }
