@@ -4,3 +4,10 @@
         width: 50%;
     }
 }
+@media(max-width: 576px){
+.logo-brand{
+    width: 30%;
+    position: absolute;
+    margin-top: -20px ;
+}
+}
