@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 *{
     font-family: 'Arima Madurai', cursive;
@@ -45,6 +46,7 @@
     margin-top: 20px;
     border: 2px black solid;
     color: black;
+    font-family: 'IM Fell English SC', serif;
 }
 @media (min-width: 768px) {
     .homeimg{
@@ -63,6 +65,9 @@
     .btn-outline:hover{
         border: 2px black solid;
         color: black;
+        box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.65);
+-webkit-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.65);
     }
     .toplinks:hover{
         border-left: 2px rgba(107, 107, 107, 0.473) solid;
@@ -78,5 +83,8 @@
     }
     .homeimg:hover{
         transform: rotate(360deg);
+        box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
     }
 }
