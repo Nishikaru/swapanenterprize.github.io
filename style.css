@@ -192,3 +192,21 @@
         transform: rotate3d(0,0,0,0deg);
     }
 }
+/* pageheader....................................................................... */
+
+
+.pagefooter{
+    min-height: 10vh;
+    overflow: hidden;
+}
+.coollink{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+}
+@media (min-width: 768px) {
+    .coollink{
+        font-size: 5em;
+    }
+}
