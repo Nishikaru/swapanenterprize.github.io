@@ -7,6 +7,7 @@
 
 *{
     font-family: 'Arima Madurai', cursive;
+    text-align: center;
 }
 .navbar{
     padding-top: 3rem ;
@@ -37,7 +38,7 @@
     /* transform: rotate(10deg); */
     transition: 0.5s ease;
     margin-top: 2rem; 
-    margin-left: 20%;
+    /* margin-left: 20%; */
     margin-bottom: 1.5rem;
     border-radius: 10px;
 }
@@ -49,6 +50,9 @@
     font-family: 'IM Fell English SC', serif;
 }
 @media (min-width: 768px) {
+    *{
+        text-align: left;
+    }
     .homeimg{
         margin-top: 20%;
         margin-left: 40%;
