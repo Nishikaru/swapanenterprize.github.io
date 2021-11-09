@@ -156,5 +156,6 @@
     }
     .logo2:hover{
         color: #FFB830;
+        cursor: pointer;
     }
 }
