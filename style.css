@@ -185,5 +185,10 @@
 @media (min-width: 768px) {
     .card{
         margin: 45% 3rem;
+        transform: rotate3d(1,1,1,45deg);
+        transition: 300ms linear;
+    }
+    .card:hover{
+        transform: rotate3d(0,0,0,0deg);
     }
 }
