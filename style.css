@@ -204,9 +204,19 @@
     margin: auto;
     text-align: center;
     font-size: 3em;
+    text-decoration: none;
+}
+.coollink a{
+    color: whitesmoke;
 }
 @media (min-width: 768px) {
     .coollink{
         font-size: 5em;
+    }
+    .coollink a{
+        color: rgba(70, 70, 70, 0.753);
+    }
+    .coollink a:hover{
+        color: white;
     }
 }
