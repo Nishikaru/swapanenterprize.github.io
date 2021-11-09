@@ -17,6 +17,7 @@
     font-family: 'Courgette', cursive;
     font-size: 35px;
     font-weight: 600;
+    text-decoration: underline;
 }
 .firstlook{
     background-color: #FBF46D;
@@ -90,5 +91,56 @@
         box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
+    }
+}
+
+/* photosec................................................................................. */
+
+.photosec{
+    min-height: 100vh;
+    background-color: #FF865E;
+    text-align: center;
+    position: relative;
+}
+.photosec p{
+    text-align: center;
+    padding-top: 1em;
+    font-weight: 600;
+}
+.carousel-item{
+    /* width: 80%; */
+    max-height: 100vh;
+    padding: 0px 10%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slideshow{
+    position: absolute;
+    top: 30vh;
+}
+.logo2ng{
+    /* text-decoration: none; */
+    color: black;
+    position: absolute;
+    left: 25%;
+    top: 75vh;
+}
+@media (min-width: 768px) {
+    .slideshow{
+        position: absolute;
+        top: 4em;
+    }
+    .carousel-item{
+        max-height: 80vh;
+        
+    }
+    .logo2ng{
+        left: 45%;
+        top: 90vh;
+        transition: 0.3s ease;
+    }
+    .logo2ng:hover{
+        color: #FFB830;
     }
 }
