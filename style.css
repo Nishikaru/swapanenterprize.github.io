@@ -161,6 +161,7 @@
     text-decoration: underline;
     font-size: 35px;
     font-weight: 600;
+    transition: 0.3s ease-in;
 
   }
 @media (min-width: 768px) {
@@ -174,7 +175,7 @@
     }
     .logo2div{
         top: 90vh;
-        transition: 0.3s ease;
+        /* transition: 0.3s ease; */
     }
     .logo2:hover{
         color: #FFB830;
@@ -237,6 +238,8 @@
     }
     .coollink a{
         color: rgba(70, 70, 70, 0.753);
+        transition: 0.5s ease-in;
+
     }
     .coollink a:hover{
         color: white;
