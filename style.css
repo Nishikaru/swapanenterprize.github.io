@@ -108,6 +108,13 @@
 .newficicon:hover{
     color: cornsilk;
 }
+.staring{
+    width: 23%;
+    transition: 10s ease-in;
+}
+.staring:hover{
+    transform: rotate(2500deg);
+}
 
 /* photosec................................................................................. */
 
