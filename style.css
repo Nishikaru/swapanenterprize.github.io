@@ -182,6 +182,37 @@
         cursor: pointer;
     }
 }
+/* about.........................................................................  */
+
+.about{
+    overflow: hidden;
+    background-color: #FF6B6B;
+    min-height: 50vh;
+}
+.aboutimg{
+    text-align: center;
+}
+.aboutus{
+    text-align: center;
+    margin-top: 2em;
+}
+.aboutimg img{
+    height: 30vh;
+    width: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+@media (min-width: 768px) {
+    /* .aboutimg{
+        margin-top: 4em;
+    }
+    .aboutus{
+        margin-top: 5em;
+    } */
+    .aboutpadding{
+        margin-top: 4em;
+    }
+}
 
 /* secoffic................................................................... */
 
@@ -215,7 +246,7 @@
         transform: rotate3d(0,0,0,0deg);
     }
 }
-/* pageheader....................................................................... */
+/* pagefooter....................................................................... */
 
 
 .pagefooter{
