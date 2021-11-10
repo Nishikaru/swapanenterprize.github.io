@@ -8,6 +8,12 @@
 *{
     font-family: 'Arima Madurai', cursive;
     text-align: center;
+    /* cursor:url(./img/mouse-icon-download-1.png), auto; */
+    cursor: url(./img/Dj5s07-gift-png-icon\ \(1\).png) ,auto;
+    
+}
+p{
+    cursor: text;
 }
 .navbar{
     padding-top: 3rem ;
