@@ -93,6 +93,21 @@
 -moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
     }
 }
+/* newfic........................................................... */
+
+.newfic{
+    min-height: 50vh;
+    background-color: #FFAB4C;
+    overflow: hidden;
+}
+.newficicon{
+    text-align: center;
+    margin-top: 15vh;
+    font-size: 4em;
+}
+.newficicon:hover{
+    color: cornsilk;
+}
 
 /* photosec................................................................................. */
 
