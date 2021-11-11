@@ -202,6 +202,12 @@ p{
     text-align: center;
     margin-top: 2em;
 }
+.aboutusp{
+    max-height: 30vh;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    overflow-y: auto;
+}
 .aboutimg img{
     height: 30vh;
     width: auto;
