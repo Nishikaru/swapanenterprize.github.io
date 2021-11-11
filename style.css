@@ -40,6 +40,11 @@ p{
     font-weight: 600;
     text-decoration: underline;
 }
+@media (max-width: 450px ) {
+    .navbar-brand{
+        font-size: 25px;
+    }
+}
 .firstlook{
     background-color: #FBF46D;
     min-height: 100vh;
@@ -294,6 +299,9 @@ p{
 }
 .formdiv{
     padding: 3em;
+}
+.formdivform{
+    padding-top: 2em;
 }
 .userform{
     display: block;
