@@ -351,11 +351,12 @@ p{
     display: block;
     margin: auto;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     text-decoration: none;
 }
 .coollink a{
     color: whitesmoke;
+    text-decoration: none;
 }
 .coollink h3{
     color: crimson;
