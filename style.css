@@ -120,6 +120,7 @@ p{
 }
 .staring:hover{
     transform: rotate(2500deg);
+    cursor: url(./img/very-basic-hand-cursor-icon\ \(1\).png),auto;
 }
 
 /* photosec................................................................................. */
