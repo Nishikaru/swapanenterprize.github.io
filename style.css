@@ -12,6 +12,21 @@
     cursor: url(./img/Dj5s07-gift-png-icon\ \(1\).png) ,auto;
     
 }
+body::-webkit-scrollbar {
+  width: 7px;
+}
+body::-webkit-scrollbar-track {
+    background: #fceabb;
+background: -moz-linear-gradient(top,  #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+background: -webkit-linear-gradient(top,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+background: linear-gradient(to bottom,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 );
+
+  }
+body::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0.795);
+    border-radius: 20px;
+  }
 p{
     cursor: text;
 }
@@ -209,6 +224,16 @@ p{
     margin-bottom: 1em;
     overflow-y: auto;
 }
+.aboutusp::-webkit-scrollbar {
+    width: 5px;
+  }
+  .aboutusp::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .aboutusp::-webkit-scrollbar-thumb {
+    background: rgba(107, 248, 201, 0.795);
+    border-radius: 20px;
+  }
 .aboutimg img{
     height: 30vh;
     width: auto;
