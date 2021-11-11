@@ -330,7 +330,7 @@ p{
     background-color: rgba(0, 0, 0, 0.3);
     height: 3em;
     cursor: text;
-
+    
 }
 .subform{
     display: block;
@@ -357,13 +357,27 @@ p{
 .coollink a{
     color: whitesmoke;
 }
+.coollink h3{
+    color: crimson;
+}
+.pagefootercopy{
+    border-top: 2px crimson solid;
+    padding: 1em;
+}
+.coollinkfull{
+    padding-top: 1em;
+}
+.footerform{
+    text-align: right;
+}
 @media (min-width: 768px) {
     .coollink{
-        font-size: 5em;
+        font-size: 2em;
     }
     .coollink a{
         color: rgba(70, 70, 70, 0.753);
         transition: 0.5s ease-in;
+        text-decoration: none;
 
     }
     .coollink a:hover{
