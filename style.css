@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 *{
     font-family: 'Arima Madurai', cursive;
     text-align: center;
@@ -393,4 +396,31 @@ p{
     .coollink a:hover{
         color: white;
     }
+}
+/* Buynow page..................................................................  */
+
+.buynow{
+    height: 100vh;
+    background: #fefcea;
+background: -moz-linear-gradient(-45deg,  #fefcea 0%, #f1da36 100%);
+background: -webkit-linear-gradient(-45deg,  #fefcea 0%,#f1da36 100%);
+background: linear-gradient(135deg,  #fefcea 0%,#f1da36 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 );
+    text-align: center;
+    margin: o;
+    padding: 0;
+}
+.buynowdiv{
+    background: cornflowerblue;
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px crimson solid;
+    display: block;
+    margin: auto;
+    font-weight: 600;
+    margin-top: 40vh;
+}
+.buynowdiv li{
+    list-style: none;
 }
