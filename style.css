@@ -284,6 +284,62 @@ p{
         transform: rotate3d(0,0,0,0deg);
     }
 }
+/* formsec.....................................................................  */
+
+.formsec{
+    min-height: auto;
+    background: linear-gradient(rgba(46, 46, 46, 0.5),rgba(46, 46, 46, 0.5)), url(https://images.pexels.com/photos/10156910/pexels-photo-10156910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.formdiv{
+    padding: 3em;
+}
+.userform{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    border-top: 1px cornflowerblue solid;
+    border-bottom: 2px cornflowerblue solid;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 1em;
+    cursor: text;
+}
+.emailform{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    border-bottom: 2px cornflowerblue solid;
+    border-top: 1px cornflowerblue solid;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: text;
+
+}
+.textform{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    border-top: 1px cornflowerblue solid;
+    border-bottom: 2px cornflowerblue solid;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 3em;
+    cursor: text;
+
+}
+.subform{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px cornflowerblue solid;
+    background-color: rgba(108, 228, 222, 0.9);
+}
 /* pagefooter....................................................................... */
 
 
