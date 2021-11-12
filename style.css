@@ -116,7 +116,7 @@ p{
         border-radius: 10px;
     }
     .homeimg:hover{
-        transform: rotate(360deg);
+        transform: rotate(0deg);
         box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
